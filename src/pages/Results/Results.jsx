@@ -41,7 +41,7 @@ const Results = () => {
             ))}
           </div>
         )} */}
-        <div className={styles.resalts}>
+        <div className={styles.results}>
             {results?.map((product) => (
               <ProductCard key={product.id} product={product} renderDesc={false} renderAdd={true} />
             ))}

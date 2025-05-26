@@ -1,10 +1,14 @@
 /* Results container */
-.resultsContainer {
-  max-width: 1200px;
-  margin: 24px auto;
-  padding: 0 20px;
-  background: #f5f5f5;
-  border-radius: 8px;
+.results {
+ width: 90%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    gap: 25px;
+ 
 }
 
 /* Results title */
