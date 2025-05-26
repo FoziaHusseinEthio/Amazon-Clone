@@ -30,7 +30,7 @@ const Product = () => {
     }
 
     return (
-        <section className={styles.productSection}>
+        <section className={styles.product_container}>
             {products.map((singleProduct) => (
                 <ProductCard renderAdd={true} product={singleProduct} key={singleProduct.id} />
             ))}
